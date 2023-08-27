@@ -7,75 +7,57 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <div>
-      <section>
-        <header class="header">
-          <h1 class="name">Jesus Uriostegui</h1>
-        </header>
-        <nav class="link">
-          <li class="link1"><a href="#About Me"> About Me</a></li>
-          <li class="link2"><a href="#Work">Work</a></li>
-          <li class="link3"><a href="#Contact Me">Contact Me</a></li>
-          <li class="link4"><a href="#Resume">Resume</a></li>
-        </nav>
-      </section>
+  <div>
+    <div class="top">
+      <header id="name">Jesus Uriostegui</header>
+      <div id="links">
+        <li><a href="#About Me"> About Me</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Contact Me">Contact Me</a></li>
+        <li class="link4"><a href="#Resume">Resume</a></li>
+      </div>
     </div>
-    <div class="about">
-      <h2 class="ME">About Me</h2>
-      <p id="aboutinfo">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam iure qui
-        velit voluptatibus reiciendis nisi illo inventore sit! Asperiores
-        veritatis quia autem voluptatum tempora itaque magni mollitia maiores ad
-        iusto.
-      </p>
+    <div id="about-me-sect" class="container">
+      <div class="row">
+        <div class="col col-left left-title">About Me</div>
+        <div class="col col-right">
+          <p id="info">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+            minus voluptas asperiores et pariatur veritatis repellat ea, soluta
+            nostrum eos ducimus voluptatum optio illo deserunt quae voluptatem!
+            Aut, officia enim.
+          </p>
+        </div>
+      </div>
     </div>
-    <h2 id="work">Work</h2>
-    <section class="flex-container">
-      <div class="info display-block">
-        <img
-          class="display-block"
-          src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg"
-          alt="Image 1"
-        />
-        <h2>Box 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div id="work-sect" class="container">
+      <div id="work-sect-title" class="col-left">
+        <div class="col left-title">Work</div>
       </div>
-
-      <div class="info display-block">
-        <img
-          src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg"
-          alt="Image 2"
-        />
-        <h2>Box 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div id="work-sect-content">
+        <div class="row">
+          <div class="col col-full"> <img class="main-img" src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg" alt="Death"></div>
+        </div>
+        <div class="row">
+          <div class="col col-half">
+            <img class="main-img" src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg" alt="Death"></div>
+          <div class="col col-half">
+            <img class="main-img" src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg" alt="Death"></div>
+        </div>
+        <div class="row">
+          <div class="col col-half"><img class="main-img" src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg" alt="Death"></div>
+          <div class="col col-half"><img class="main-img" src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg" alt="Death"></div>
+        </div>
       </div>
-
-      <div class="info display-block">
-        <img
-          src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg"
-          alt="Image 3"
-        />
-        <h2>Box 3</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-
-      <div class="info display-block">
-        <img
-          src="assets/images/skull-ghost-cityscape-dark-night-rf (1).jpg"
-          alt="Image 4"
-        />
-        <h2>Box 4</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </section>
-    <div">
-      <h2 id="Contact">Contact Me</h2>
-      <nav id="info">
-        <li class="phone"><a href="#"></a>1234567894</li>
-        <li class="mail"><a href="#"></a>Email</li>
-        <li class="hub"><a href="#"></a>Github</li>
-      </nav>
+    </div>
+    <div id="contact-me-sect" class="container">
+      <div class="col left-title col-left">Contact Me</div>
+       <div id="contact-me" class="row">
+       <div id="col-bottom"></div>
+        <div class="col col-bottom"><a class="Tel_link"href="#">Tel-phone#</a></div>
+        <div class="col col-bottom"><a class="email" href="Jesusjru@gmail.com">Gmail</a></div>
+      <div class="col col-bottom"><a href="https://github.com/" target="_blank">Github</a></div>
+    </div>
     </div>
   </body>
 </html>
