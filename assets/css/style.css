@@ -20,13 +20,18 @@
     text-align: center;
 }
 .col-full{
-    width: 100%;
+    width: 90%;
+    transform: rotate(350deg);
 }
 .main-img{
     width: 75%;
+    margin: 20px;
 }
+
 .col-half{
     width: 50%;
+    transform: rotate(15deg);
+   
 }
 .col-left{
     width:  33%;
@@ -87,13 +92,20 @@ li {
     padding-bottom: 49px;
     padding-top: 93px;
 }
+#rocky{
+    width: 100px;
+    position: relative;
+
+}
 
 
 #work-sect-content{
     width: 67%;
+    padding-top: 20px;
 }
 #contact-me{
     width: 67%;
+    margin: 20px;
 }
 
 .body-form{
