@@ -1,3 +1,6 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .container{
     display: flex;
     background-color: lightblue;
@@ -18,13 +21,14 @@
 .col {
     /*flex: 0 0 50%;*/
     text-align: center;
+    padding-bottom: 10px;
 }
 .col-full{
     width: 90%;
     transform: rotate(350deg);
 }
 .main-img{
-    width: 75%;
+    width: 70%;
     margin: 20px;
 }
 
@@ -45,7 +49,7 @@
     
 }
 .topleft{
-    padding-top: 15px;
+    padding-top: 100px;
 }
 
 .col-right{
@@ -93,7 +97,7 @@ li {
     padding-top: 93px;
 }
 #rocky{
-    width: 100px;
+    width: 90px;
     position: relative;
 
 }
