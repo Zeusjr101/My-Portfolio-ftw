@@ -27,9 +27,10 @@
     width: 90%;
     transform: rotate(350deg);
 }
-.main-img{
+.main-img, .hover{
     width: 70%;
     margin: 20px;
+    cursor: pointer;
 }
 
 .col-half{
